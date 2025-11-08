@@ -1,0 +1,63 @@
+/* ============================
+   MAIN PAGE STYLING
+============================ */
+.blogs-page {
+  max-width: 1100px;
+  margin: 2rem auto;
+  padding: 1rem 1.3rem;
+  text-align: center; 
+
+} 
+
+
+.blogs-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #020202; /* Soft Purple */
+}
+
+.blogs-subtitle {
+  color: #4b4b4b;
+  margin-top: 0.4rem;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+}
+
+/* ============================
+   BLOG CARD
+============================ */
+.blog-card {
+  background: #cad2df;
+  padding: 1.8rem;
+  border-radius: 16px;
+  border: 1.5px solid #01018f;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+  text-align: left;
+}
+
+.blog-heading {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #09090a;
+  margin-top: 1.3rem;
+}
+
+.blog-text {
+  color: #3A3A3A;
+  margin-top: 0.5rem;
+  line-height: 1.7;
+  font-size: 1rem;
+}
+
+/* ============================
+   RESPONSIVE DESIGN
+============================ */
+@media (max-width: 768px) {
+  .blogs-title {
+    font-size: 1.6rem;
+  }
+
+  .blog-card {
+    padding: 1.2rem;
+  }
+}

@@ -1,0 +1,65 @@
+.counter-container {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px;
+}
+
+.counter-box {
+  background: #f3f4f6;
+  width: 200px;
+  margin: 20px auto;
+  padding: 20px 0;
+  border-radius: 10px;
+  border: 2px solid #d4d4d8;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.counter-box h1 {
+  margin: 0;
+  font-size: 48px;
+  color: #1f2937;
+}
+
+.btn-group {
+  margin-top: 20px;
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+/* ✅ Increment Button */
+.inc {
+  background-color: #34d399;
+  color: white;
+}
+.inc:hover {
+  background-color: #059669;
+}
+
+/* ✅ Decrement Button */
+.dec {
+  background-color: #60a5fa;
+  color: white;
+}
+.dec:hover {
+  background-color: #2563eb;
+}
+
+/* ✅ Reset Button */
+.reset {
+  background-color: #f43f5e;
+  color: white;
+}
+.reset:hover {
+  background-color: #e11d48;
+}

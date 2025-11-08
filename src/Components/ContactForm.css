@@ -1,0 +1,97 @@
+/* ================================
+   CONTACT FORM MAIN CONTAINER
+================================ */
+.contact-form-container {
+  max-width: 650px;
+  margin: 2rem auto;
+  padding: 1.8rem;
+  background: #ffffff;
+  border-radius: 14px;
+  border: 1.5px solid #b6a7a7;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.07);
+}
+
+/* Title Styling */
+.form-title {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #070707;
+  margin-bottom: 1.5rem;
+}
+
+/* ================================
+   FORM FIELDS (INPUT + TEXTAREA)
+================================ */
+.form-group {
+  margin-bottom: 1.2rem;
+  width: 100%;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #374151;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 500px;
+  padding: 0.85rem;
+  border-radius: 10px;
+  border: 1.5px solid #d1d5db;
+  background: #f9fafb;
+  font-size: 0.95rem;
+  outline: none;
+  transition: 0.25s ease;
+}
+
+/* Focus Effect */
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #020202;
+  background: #fff;
+  box-shadow: 0 0 6px rgba(12, 12, 14, 0.25);
+}
+
+/* Textarea Styling */
+.form-group textarea {
+  height: 130px;
+  resize: none;
+}
+
+/* ================================
+   SUBMIT BUTTON
+================================ */
+.submit-btn {
+  width: 100%;
+  padding: 0.9rem;
+  font-size: 1rem;
+  font-weight: 600;
+  background: #050505;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.25s ease;
+}
+
+.submit-btn:hover {
+  background: #3f39c9;
+  transform: translateY(-2px);
+}
+
+/* ================================
+   RESPONSIVE DESIGN
+================================ */
+@media (max-width: 768px) {
+  .contact-form-container {
+    padding: 1.4rem;
+  }
+
+  .form-title {
+    font-size: 1.4rem;
+  }
+}

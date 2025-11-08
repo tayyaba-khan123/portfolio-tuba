@@ -1,0 +1,98 @@
+/* Footer + ContactForm styling combined */
+.footer {
+  background: #b4b3b3;
+  border-top: 2px solid #e5e7ff;
+  padding: 2.5rem 1rem 1rem;
+  margin-top: auto;
+}
+
+.footer-container {
+  max-width: 1150px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+}
+
+/* ✅ Left */
+.footer-left {
+  flex: 1;
+  min-width: 500px;
+}
+
+.footer-logo {
+  font-size: 1.7rem;
+  font-weight: 800;
+  color: #0f0f0f;
+}
+
+.footer-text {
+  margin-top: 0.5rem;
+  color: #060707;
+  max-width: 300px;
+  line-height: 1.6;
+}
+
+/* ✅ Center + Right */
+.footer-center h3,
+.footer-right h3 {
+  color: 1#0b0b0c;
+  font-size: 1.2rem;
+  margin-bottom: 0.7rem;
+}
+
+.footer-center ul,
+.footer-right ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-center ul li,
+.footer-right ul li {
+  margin-bottom: 0.6rem;
+  gap: 1000px;
+}
+
+.footer-center ul li a,
+.footer-right ul li a {
+  text-decoration: none;
+  color: #050505;
+  font-size: 0.97rem;
+  display: flex;                 /* ✅ Icon + text alignment */
+  align-items: center;
+  gap: 6px;
+  transition: 0.3s ease;
+}
+
+/* ✅ Hover */
+.footer-center ul li a:hover,
+.footer-right ul li a:hover {
+  color: #4e4cb6;
+}
+
+/* ✅ Icon styling */
+.icon {
+  font-size: 18px;
+  color: #080808;
+
+}
+
+/* ✅ Bottom */
+.footer-bottom {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #050505;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    text-align: center;
+  }
+
+  .footer-center ul li a,
+  .footer-right ul li a {
+    justify-content: center;
+  }
+}

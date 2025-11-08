@@ -1,0 +1,83 @@
+/* =============================
+   ABOUT PAGE MAIN WRAPPER
+============================= */
+.about-page {
+  max-width: 1100px;
+  margin: 2rem auto;
+  padding: 1rem 1.3rem;
+  text-align: center;
+}
+
+.about-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #4f46e5;
+}
+
+.about-subtitle {
+  margin-top: 0.5rem;
+  color: #4b5563;
+  margin-bottom: 2rem;
+}
+
+/* =============================
+   ABOUT BOX
+============================= */
+.about-container {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* LEFT Side Image */
+.about-image-box {
+  flex: 1;
+  min-width: 260px;
+}
+
+.about-image {
+  width: 100%;
+  max-width: 380px;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+}
+
+/* RIGHT Side Text */
+.about-text-box {
+  flex: 1.2;
+  min-width: 280px;
+  text-align: left;
+}
+
+.about-heading {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #4f46e5;
+  margin-bottom: 0.7rem;
+}
+
+.about-text {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #374151;
+  margin-bottom: 1rem;
+}
+
+/* =============================
+   RESPONSIVE DESIGN
+============================= */
+@media (max-width: 768px) {
+  .about-image {
+    max-width: 100%;
+  }
+
+  .about-text-box {
+    text-align: center;
+  }
+
+  .about-heading {
+    font-size: 1.5rem;
+  }
+}

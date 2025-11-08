@@ -1,0 +1,102 @@
+/* Main container */
+.projects-container {
+  min-height: 100vh;
+  background: #eef2ff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+/* Title */
+.projects-title {
+  font-size: 38px;
+  font-weight: 700;
+  color: #1e3a8a;
+  margin-bottom: 35px;
+}
+
+/* ✅ Cards Row Layout */
+.projects-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;        /* ✅ All cards in one row */
+  gap: 25px;                /* ✅ Space between cards */
+  overflow-x: auto;         /* ✅ Slide if screen small */
+  padding-bottom: 10px;
+}
+
+/* Scrollbar hide (optional) */
+.projects-grid::-webkit-scrollbar {
+  height: 8px;
+  background: transparent;
+}
+.projects-grid::-webkit-scrollbar-thumb {
+  background: #c7d2fe;
+  border-radius: 10px;
+}
+
+/* CARD Styling */
+.project-card {
+  width: 280px;
+  min-width: 280px;
+  background: white;
+  padding: 20px;
+  border-radius: 18px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.12);
+  transition: 0.3s ease;
+  cursor: pointer;
+  text-align: center;
+}
+
+/* Hover Effect */
+.project-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.18);
+}
+
+/* Image */
+.project-img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 14px;
+  margin-bottom: 15px;
+}
+
+/* Title */
+.project-card h2 {
+  font-size: 22px;
+  margin-bottom: 8px;
+  color: #111827;
+}
+
+/* Description */
+.project-card p {
+  color: #4b5563;
+  font-size: 15px;
+  margin-bottom: 18px;
+  padding: 0 5px;
+}
+
+/* Button */
+.open-btn {
+  width: 100%;
+  padding: 10px 18px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.open-btn:hover {
+  background: #1e40af;
+}
+
+/* Project output area */
+.project-output {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}

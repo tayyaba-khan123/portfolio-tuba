@@ -5,7 +5,7 @@ export default function WeatherApp() {
   const [city, setCity] = useState("");
   const [weather, setWeather] = useState(null);
   const [error, setError] = useState("");
-  const apiKey = "fa072bb9e2d589156f89d49a1bc88b6f";
+  const apiKey = "dd88ad53ae581291960a0661c54e6b44";
 
   const getWeather = async () => {
     if (!city) {
